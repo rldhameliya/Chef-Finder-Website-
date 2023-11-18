@@ -1,0 +1,313 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+header
+{
+    background-image:url(i1.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top: 0px;
+    background-repeat: round;
+    
+    
+
+}
+
+header ul{
+  
+   
+  float: right;
+  list-style-type: none;
+  margin-top: 4.7vw;
+    
+}
+header ul li
+{
+  display: inline-block;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0.45vw 1.5vw;
+  border: 1px double transparent;
+  border-radius: 10% 0% 10% 0%;
+  font-size: 1.5vw;
+  transition: 1s ease;
+}
+header ul li a:hover
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  color:rgba(210, 219, 219, 0.8);
+  font-size:2.25vw;
+  border-style: groove hidden groove hidden;
+  border-color: rgba(231, 235, 26, 0.8);
+  border-radius: 10% 0% 10% 0%;
+}
+header ul li.active a{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+    
+}
+
+header .title .main_head
+{
+    color: white;
+    font-size: 4vw;
+    height: 2.625vw;
+    width: 45vw;
+    padding-left: 40%;
+   
+  
+}
+
+
+header .logo img
+{
+  float: left;
+  width: 5.5vw;
+  height: 5.5vw;
+  border: 0.15vw rgb(7, 7, 7);
+  margin-top: 1.75vw;
+  margin-left: 3.75vw;
+  border-radius: 5% 0% 20% 0%;
+  border-style: hidden dotted double solid;
+ 
+ }
+
+ #myBtn
+{
+    
+    
+    background-image:url(header.jpg);
+    height: 5.25vw;
+    width: 100%;
+    font-size: 3vw;
+   
+    border-top: double green;
+  
+    border-width:0.225vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.15vw 0.15vw red;
+    color: white;
+    transition: ease 0.5s;
+   
+    
+}
+#myBtn:hover{
+    font-size: 45px;
+    border: none;
+    background-image:url(img.jpg);
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+    padding-top: 15vw;
+
+    padding-left: 2.25vw;
+  }
+  .card1 {
+    height: 34.125vw;
+    width: 67.5vw;
+    box-shadow: 0vw 1.125vw 1.875vw 0vw rgba(153, 153, 153, 0.5);
+    border-radius: 0.3vw;
+    background-image:url(img1.jpg);
+    margin-left: 7.5vw;
+    margin-bottom: 5.25vw;
+    margin-top: 5.25vw;
+
+  }
+
+  .card1:hover {
+    background-image:url(img2.jpg);
+    box-shadow: 0.75vw 1.125vw 1.875vw 0.75vw rgba(153, 153, 153, 0.8);
+  }
+
+  .card2 {
+    height: 34.125vw;
+    width: 67.5vw;
+    box-shadow: 0vw 1.125vw 1.875vw 0vw rgba(153, 153, 153, 0.5);
+    border-radius: 0.3vw;
+    background-image:url(img3.jpg);
+    margin-left: 22.5vw;
+   
+  }
+
+  .card2:hover {
+    box-shadow: 0.75vw 1.125vw 1.875vw 0.75vw rgba(153, 153, 153, 0.5);
+    background-image:url(img2.jpg);
+  }
+   .right {
+    margin-left: 28.425vw;
+    padding-right: 0.3vw;
+    height: 31vw;
+
+    padding-top: 2.25vw;
+  }
+
+  .right .h2,
+  .h3 {
+    font-size: 1vw;
+
+    font-weight: bold;
+
+
+  }
+
+  .right .ingre {
+    font-size: 0.975vw;
+    padding-bottom: 0.375vw;
+    padding-top: 0vw;
+    font-weight: lighter;
+    border-bottom-style: inset;
+    border-bottom-width: 0.075vw;
+
+    border-color: rgb(10, 9, 9);
+    width: 100%;
+
+  }
+
+  .right .recipe {
+    padding-left: 0.15vw;
+    padding-top: 0.375vw;
+    font-size: 0.975vw;
+  }
+
+  .left {
+    float: left;
+    width: 28.125vw;
+    
+  }
+
+  .left .top {
+    box-sizing: border-box;
+
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+  }
+
+  
+
+  .left .top {
+    height: 55%;
+    border-radius: 0.3vw 0vw 0vw 0.3vw;
+    border: 0vw solid #ddd;
+    /* Setting a background image */
+
+    padding: 0vw 1.2vw;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: rgba(#1f4135, 0.5);
+  }
+
+  #top1 {
+    background-image: url(kitten1.jpg);
+  }
+
+  #top2 {
+    background-image: url(chickenB.jpg);
+  }
+
+  #top3 {  
+    background-image: url(chickenB2.jpg);
+  }
+
+  #top4 {
+    background-image: url(vegB.jpg);
+  } 
+
+  .name {
+    padding-top: calc(35.625vw * 0.70);
+    margin: 0vw;
+    text-shadow: 0.15vw 0.15vw white;
+    color: rgb(20, 14, 14);
+    font-size: 150%;
+  }
+
+  .veg {
+    display: inline-block;
+    width: 0.75vw;
+    height: 0.75vw;
+    margin-left: 0.3vw;
+
+    border-radius: 0.375vw;
+    background-color: rgb(44, 216, 10);
+  }
+
+  .non-veg {
+    display: inline-block;
+    width: 0.75vw;
+    height: 0.75vw;
+    margin-left: 0.3vw;
+
+    border-radius: 0.375vw;
+    background-color: rgb(232, 15, 15);
+  }
+
+  .cook-time {
+    margin-top: 0.6vw;
+    color: black;
+  }
+
+  .bottom {
+    height: 40%;
+
+    border-radius: 0vw 0vw 0.3vw 0.3vw;
+    border: 00vw solid;
+    padding: 0vw 0.3vw;
+    background-color: black;
+
+  }
+
+  .profile-action {
+    display: block;
+    width: 80%;
+    height: 2.4vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.75vw;
+    text-align: left;
+    border-radius: 0.3vw;
+    border: 0vw;
+    background-color: #fff;
+    float: left;
+  }
+
+  .profile-action:hover {
+    background-color: #0d0e0e;
+    color: white;
+  }
+
+  .bottom .like {
+
+    padding-top: 0.525vw;
+    padding-bottom: 0.375vw;
+    float: right;
+    height: 1.875vw;
+    font-size: 0.75vw;
+    border-radius: 0.3vw;
+    border: 0vw;
+    cursor: pointer;
+  }
+
+  .bottom .like:hover {
+    color: black;
+    background-color: #0d0e0e;
+    height: 2.25vw;
+  }
+
+  .by {
+    font-size: 140%;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 0.75vw;
+  }
+
+

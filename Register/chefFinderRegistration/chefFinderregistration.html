@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>chefFinderRegistration</title>
+      <style>
+        input:invalid {
+            border: red solid 0.005vw;
+        }
+    </style>
+    <link rel="stylesheet" href="registration.css" type="text/css">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="chefFinder1.mp4" type="video/mp4">
+    </video>
+    <section>
+        <div class="Header" id="head">
+			<div class="logo">
+			  <img src="logo.jpg" alt="chef finder logo">
+			</div>
+        <div class="menubar">
+            <ul>
+                <li><a href="../../Home.html">Home</a></li>
+                <li><a href="../../recipes/recipes.html" target="_self">Recipes</a></li>
+                <li><a href="../../Follow_Us/follow.html" target="_self">Follow Us</a></li>
+                <li><a href="../../Terms/T&C.html" target="_self">T & C s</a></li>
+                <li><a href="#"
+                        onClick="window.open('../../Share/share.html','Share','resizable,height=260,width=370'); return false;">Share</a>
+                </li>
+            </ul>
+        </div>
+        <div class="all">
+            <div class="hd">
+                <u style="color: white;"><h1 class="reg_head">ChefFinder Registration</h1></u>
+            </div>
+            <div class="form">
+                <form action="insert.php" method="get"  name="reg_form" class="reg_card" id="regi">
+                    <table class="reg_table">
+                        <tr></tr>
+                        <tr></tr>
+                        <tr class="row">
+                            <td class="td">Name &emsp;</td>
+                            <td>
+                                <input type="textarea" placeholder="name" pattern="[A-z, ]{1,25}" name="Name"
+                                    title="Name must be 1 to 25 'letters' only" class="naam" required/>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr class="row">
+                            <td class="td">DOB &emsp;</td>
+                            <td>
+                                <input type="date" name="DOB" required title="Enter your DOB " required/>
+
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr class="row">
+                            <td class="td">Phone No. &emsp;</td>
+                            <td>
+                                <input id="ph" type="text" name="ph" maxlength="10" pattern="[7-9]{1}[0-9]{9}"
+                                    title="Phone number must be a valid 10 digit and start with 7,8 or 9" value=""
+                                    placeholder="98 XXXX XXXX"  required/>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr class="row">
+                            <td class="td">location &emsp;</td>
+                            <td>
+                                <input type="text" name="location" pattern="[A-z, ]{1,25}" title="It should be letters only" placeholder="Enter Your Location" required/>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr class="row">
+                            <td class="td">E-mail ID &emsp;</td>
+                            <td>
+                                <input type="text" name="email" title="Formate should be abc@gmail.com " pattern=".+@gmail\.com"
+                                    placeholder="abc123@gmai.com" required/>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr class="row">
+                            <td class="td">Password &emsp;</td>
+                            <td>
+                                <input type="password" id="psw" name="password"
+                                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                                    minlength="8" maxlength="14" placeholder="Abcd@1234" required/>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                    </table><br>
+                    <div class="reg_submit">
+                        <pre>      <input type="Reset" name="Reset" class="smt">                 <input type="submit" value="Register" name="submit" class="smt" /></pre>
+                        <br>
+
+                    </div>
+                </form>
+                <div class="login">
+                    Already have account <a href="../login/chefFinder/chefFinderLogin.html">login here</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+   
+</body>
+
+</html>

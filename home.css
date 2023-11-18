@@ -1,0 +1,123 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    margin:0vw;
+    padding: 0vw;
+}
+section
+{
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+section .menubar ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 3.5vw;
+}
+section .menubar ul li
+{
+    display: inline;
+    padding-top: 2.25vw ;
+    
+  
+}
+
+section .menubar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.45vw 1.5vw;
+    border: 1px double transparent;
+    border-radius: 10% 0% 10% 0%;
+    font-size: 1.5vw;
+    transition: 1s ease;
+}
+
+section .menubar ul li a:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgba(210, 219, 219, 0.8);
+    font-size:2.25vw;
+    border-style: groove hidden groove hidden;
+    border-color: rgba(9, 8, 10, 0.8);
+    border-radius: 10% 0% 10% 0%;
+    
+}
+
+
+
+
+.logo img
+{
+    float: left;
+  width: 5.5vw;
+  height: 5.5vw;
+  border: 0.15vw rgb(7, 7, 7);
+  margin-top: 1.75vw;
+  margin-left: 3.75vw;
+  border-radius: 5% 0% 20% 0%;
+  border-style: hidden dotted double solid;
+ 
+ }
+.main
+{
+    max-width: 95.25vw;
+    margin: auto;
+}
+.title
+{
+  position: absolute;  
+  top: 50%;
+  left: 52%;
+  transform: translate(-50% ,-50%);
+}
+.title h1{
+    color:white;
+    font-size: 9vw;
+    font-family: 'Times New Roman';
+    opacity: 0.7;
+}
+.button
+{
+    position: absolute;  
+    top: 65%;
+    left: 49.5%;
+    transform: translate(-50% ,-50%);
+    list-style-type: none;
+    
+}
+.button .btn{
+    color: white;
+    font-size: 1.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.225vw 1.875vw;
+    border: 1px  #f7f5f5;
+    text-decoration: none;
+    border-style: groove hidden hidden double;
+    transition: 1s ease;
+}
+.button .btn:hover{
+    background-color: rgba(0, 0, 0, .5);
+    color:white;
+    font-size: 2.5vw;
+    border-color: rgb(14, 10, 10);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0vw;
+    bottom: 0vw;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.9;
+}
+
+
+
+
+   

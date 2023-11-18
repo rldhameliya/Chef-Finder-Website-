@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>chefRegistration</title>
+    <!--?php include 'reg.php'?-->
+    <style>
+        input:invalid {
+            border: red solid 0.005vw;
+        }
+    </style>
+    <link rel="stylesheet" href="reg.css" type="text/css">
+</head>
+
+<body>
+
+    
+    <video autoplay muted loop id="myVideo">
+        <source src="chefRegister.mp4" type="video/mp4">
+    </video>
+
+
+
+    <section>
+        <div class="Header" id="head">
+			<div class="logo">
+			  <img src="logo.jpg" alt="chef finder logo">
+			</div>
+        <div class="menubar">
+            <ul>
+                <li><a href="../../Home.html">Home</a></li>
+                <li><a href="../../recipes/recipes.html" target="_self">Recipes</a></li>
+                <li><a href="../../Follow_Us/follow.html" target="_self">Follow Us</a></li>
+                <li><a href="../../Terms/T&C.html" target="_self">T & C s</a></li>
+                <li><a href="#"
+                        onClick="window.open('../../Share/share.html','Share','resizable,height=260,width=370'); return false;">Share</a>
+                </li>
+            </ul>
+        </div>
+        <div class="all">
+            <div class="hd">
+                <u><h1 class="reg_head">Chef Registration</h1></u>
+            </div>
+            <div class="form">
+                <form action="insert.php"  name="reg_form" class="reg_card"
+                    id="regi">
+                    <table class="reg_table">
+                        <tr class="row">
+                            <td class="td">Name &emsp;</td>
+                            <td>
+                                <input type="text" placeholder="name" pattern="[A-z, ]{1,25}" name="Name"
+                                    title="Name must be 1 to 25 'letters' only" class="naam" required>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Speciality &emsp;</td>
+                            <td>
+                                <select name="speciality" id="spc" required>
+                                    <option value="veg">Veg</option>
+                                    <option value="Nonveg">Non-veg</option>
+                                    <option value="both">both veg & Non-veg</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Availability &emsp;</td>
+                            <td>
+                                <input type="checkbox" name="Time" value="Full-Time" checked>
+                                <label for="Full">Full-Time</label>
+                                <br>
+                                <input type="checkbox" name="Time" value="Part-Time">
+                                <label for="Part">Part-Time</label>
+
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Experience &emsp;</td>
+                            <td>
+                                <input type="radio" value="New" name="exp" checked>
+                                <label for="new">New</label><br>
+                                <input type="radio" value="greaterTwo" name="exp">
+                                <label for="twp">More than 1 Year</label><br>
+                                <input type="radio" value="greaterFive" name="exp">
+                                <label for="five">More than 5 Years</label><br>
+                                <input type="radio" value="greaterTen" name="exp">
+                                <label for="ten">More than 10 Years</label>
+
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Sevice City &emsp;</td>
+                            <td>
+                               <input type="text" name="location" id="loc" pattern="[A-z, ]{1,25}" title="It should be letters only" placeholder="location" required>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Expected Payment/head &emsp;</td>
+                            <td>
+                                <input type="text" name="payment" id="payment" placeholder="Expected Payment" maxlength="05" pattern="[0-9]{1,5}" title="Enter Valid Number"  required>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Cooking Type &emsp;</td>
+                            <td>
+                                <input type="text" name="food_region" id="food_region" pattern="[A-z, ]{1,25}" placeholder="Cooking Type" required
+                                >
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Phone No. &emsp;</td>
+                            <td>
+                                <input id="ph" type="text" maxlength="10" pattern="[7-9]{1}[0-9]{9}"
+                                    title="Phone number must be a valid 10 digit and start with 7,8 or 9" required value=""
+                                    placeholder="98 XXXX XXXX" name="ph" required>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">E-mail ID &emsp;</td>
+                            <td>
+                                <input type="text" name="email" title="Formate should be abc@gmail.com " pattern=".+@gmail\.com"
+                                    placeholder="abc123@gmai.com" required>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="td">Password &emsp;</td>
+                            <td>
+                                <input type="password" id="psw" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                                minlength="8" maxlength="14" placeholder="Abcd@1234" required>
+                            </td>
+                        </tr>
+
+                    </table><br>
+                    <div class="reg_submit">
+                        <pre>             <input type="Reset" name="Reset" class="smt">                  <input type="submit" value="Register" name="submit" class="smt" /></pre>
+                        
+                    </div><br>
+                </form>
+                <div class="login">
+                    Already have account <a href="../login/chef/chefLogin.html">login here</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

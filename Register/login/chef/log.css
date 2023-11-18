@@ -1,0 +1,134 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+
+}
+
+body .logo img {
+    float: left;
+    width: 5.5vw;
+    height: 5.5vw;
+    border: 0.15vw rgb(7, 7, 7);
+    margin-top: 1.75vw;
+    margin-left: 3.75vw;
+    border-radius: 5% 0% 20% 0%;
+    border-style: hidden dotted double solid;
+
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0vw;
+    bottom: 0vw;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+section .menubar {
+    float: right;
+}
+
+section .menubar ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 3.625vw;
+}
+
+section .menubar ul li {
+    display: inline-block;
+}
+
+section .menubar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.45vw 2vw;
+    border: 1px double transparent;
+    border-radius: 10% 0% 10% 0%;
+    font-size: 1.5vw;
+    transition: 1s ease;
+
+}
+
+section .menubar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(210, 219, 219, 0.8);
+    font-size: 2.25vw;
+    border-style: groove hidden groove hidden;
+    border-color: rgba(9, 8, 10, 0.8);
+    border-radius: 10% 0% 10% 0%;
+}
+
+section .card2 {
+    padding-top: 7%;
+    padding-left: 29%;
+    padding-right: 25%;
+    padding-bottom: 7%;
+    height: auto;
+    width: 100%;
+    opacity: 0.7;
+}
+
+section .card2:hover {
+    padding-top: 7%;
+    padding-left: 29%;
+    padding-right: 25%;
+    padding-bottom: 7%;
+    opacity: 1;
+}
+
+section .card2 .head {
+
+    padding-top: 0.225vw;
+    padding-left: 34.5%;
+    background-position: center;
+    background-color: black;
+    display: inline-block;
+}
+
+section .card2 .heading {
+
+    padding-top: 0.225vw;
+    padding-left: 29%;
+    background-position: center;
+    background-color: black;
+    display: inline-block;
+}
+section .card2 .regis {
+    padding-left: 2vw;
+}
+section .card2 .regis span {
+    padding-left: 12vw;
+}
+
+input:invalid {
+    border: red dotted 0.075vw;
+}
+.form-group{
+    font-size: 20px;
+}

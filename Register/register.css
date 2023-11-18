@@ -1,0 +1,133 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+
+}
+
+body .logo img {
+    float: left;
+    width: 5.5vw;
+    height: 5.5vw;
+    border: 0.15vw rgb(7, 7, 7);
+    margin-top: 1.75vw;
+    margin-left: 3.75vw;
+    border-radius: 5% 0% 20% 0%;
+    border-style: hidden dotted double solid;
+
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0vw;
+    bottom: 0vw;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+section .menubar ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 3.5vw;
+}
+
+section .menubar ul li
+{
+    display: inline;
+    padding-top: 2.25vw ;
+    
+  
+}
+
+section .menubar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.45vw 1.5vw;
+    border: 1px double transparent;
+    border-radius: 10% 0% 10% 0%;
+    font-size: 1.5vw;
+    transition: 1s ease;
+}
+
+section .menubar ul li a:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgba(210, 219, 219, 0.8);
+    font-size:2.25vw;
+    border-style: groove hidden groove hidden;
+    border-color: rgba(9, 8, 10, 0.8);
+    border-radius: 10% 0% 10% 0%;
+    
+}
+
+section .card2 {
+    background-size:cover;
+    background-position: center;
+    position: fixed;
+    height: 25vh;
+    margin-top: 17%;
+    margin-left: 35%;
+    opacity: .4;
+    width: 32%;
+}
+
+section .card2:hover {
+    background-size:cover;
+    background-position: center;
+    position: fixed;
+    height: 10vh;
+    margin-top: 17%;
+    margin-left: 35%;
+    width: 32%;
+    opacity: .8;
+}
+
+section .card2 .head {
+
+    padding-top: 0.225vw;
+    padding-left: 42%;
+    color: #FFF2CC;
+    background: black;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+section .card2 .heading{
+
+    padding-top: 0.225vw;
+    padding-left: 32%;
+    color: #FFF2CC;
+    background: black;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+section .card2 .regis {
+    padding-left: 2vw;
+}

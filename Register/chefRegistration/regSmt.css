@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header
+{
+   
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+
+header .main
+{
+    margin-top: 0vw;
+    padding-left: 1.8vw;
+}
+
+header .main .logo img
+{
+    float: left;
+  width: 5.5vw;
+  height: 5.5vw;
+  border: 0.15vw rgb(7, 7, 7);
+  margin-top: 1.75vw;
+  margin-left: 3.75vw;
+  border-radius: 5% 0% 20% 0%;
+  border-style: hidden dotted double solid;
+ 
+ }
+
+ #myVideo {
+    position: fixed;
+    right: 0vw;
+    bottom: 0vw;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+header .main ul{
+
+    float: right;
+    list-style-type: none;
+    margin-top: 4vw;
+}
+
+header .main ul li
+{
+    display: inline-block;   
+}
+
+header .main ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.45vw 1.5vw;
+    border: 1px double transparent;
+    border-radius: 10% 0% 10% 0%;
+    font-size: 1.5vw;
+    transition: 1s ease;
+}
+header .main ul li a:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgba(210, 219, 219, 0.8);
+    font-size:2.25vw;
+    border-style: groove hidden groove hidden;
+    border-color: rgba(9, 8, 10, 0.8);
+    border-radius: 10% 0% 10% 0%;
+}
+
+.thank
+{
+	
+	
+	position:"fixed";
+	width: 45vw;
+  
+	float: right;
+    background-size:cover;
+    background-position: center;
+    height: 50vh;
+    margin-top: 10%;
+    margin-right: 30%;
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(95, 214, 111, 0.5),rgba(88, 113, 165, 0.1)), url('');
+    box-shadow: rgba(red, green, blue, 0.7);
+    opacity:1;
+	border-radius: 5% 0% 20% 0%;
+    border-style: hidden dotted double solid;
+	padding-left:1vw;
+	font-size:1.5vw;
+	
+}
+.thank span
+{
+	font-size: 6vw;
+	background:none;
+	text-align:center;
+	display: inline-block;
+	padding-top:8vw;
+	padding-left:7vw
+	
+}
+
+.thank .login
+{
+    float: right;
+    color: white;
+    margin-top: 7.5vw;
+    margin-right: 5vw;
+}
+.thank .login a
+{
+    text-decoration: none;
+    color: rgb(169, 157, 237);
+   
+}
+.thank .login a:hover{
+    font-size: 120%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(0, 0, 0);
+    font-family: monospace;
+    border: red;
+    font-style: italic;
+}
